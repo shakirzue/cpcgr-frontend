@@ -5,7 +5,7 @@ import ManagerAppbar from "../../components/ManagerAppBar";
 import { Typography } from "@material-ui/core";
 import { backgroundColor} from "../../Constants";
 import { createStore, combineReducers } from 'redux';
-import authorised from "../../reduxReduncer/authorised";
+import {authorised} from "../../reduxReduncer/authorised";
 
 
 function App() {
