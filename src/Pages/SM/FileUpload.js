@@ -1,6 +1,6 @@
 import { backgroundColor } from "../../Constants";
 import ManagerAppbar from "../../components/ManagerAppBar";
-import authorised from "../../reduxReduncer/authorised";
+import {authorised} from "../../reduxReduncer/authorised";
 import React, { useEffect, useState } from "react";
 import { createStore, combineReducers } from 'redux';
 import { Typography } from "@material-ui/core";
