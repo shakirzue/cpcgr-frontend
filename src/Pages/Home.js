@@ -4,7 +4,7 @@ import { authenticationService } from '../services/authentication.service';
 import { backgroundColor } from "../Constants";
 import ManagerAppbar from "../components/ManagerAppBar";
 import { createStore, combineReducers } from 'redux';
-import authorised from "../reduxReduncer/authorised";
+import {authorised} from "../reduxReduncer/authorised";
 import logo from "../Images/logo.png";
 import { useIsAuthenticated } from "@azure/msal-react";
 import { useNavigate } from "react-router-dom";
