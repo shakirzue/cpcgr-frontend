@@ -1,6 +1,6 @@
 import ManagerAppbar from "../../components/ManagerAppBar";
 import IFrame from "../../components/IFrame";
-import authorised from "../../reduxReduncer/authorised";
+import {authorised} from "../../reduxReduncer/authorised";
 import React, { useState, useEffect } from "react";
 import { backgroundColor } from "../../Constants";
 import { createStore, combineReducers } from 'redux';
