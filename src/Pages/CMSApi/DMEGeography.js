@@ -5,7 +5,7 @@ import ManagerAppbar from "../../components/ManagerAppBar";
 import { Typography } from "@material-ui/core";
 import { backgroundColor} from "../../Constants";
 import { createStore, combineReducers } from 'redux';
-import authorised2 from "../../reduxReduncer/authorised";
+import {authorised} from "../../reduxReduncer/authorised";
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
   const [rowInserted, setRowInserted] = useState(0);
   const [fetchingFinishedLabel, setFetchingFinishedLabel] = useState("");
   const rootReducer = combineReducers({
-    authorised2
+    authorised
 });
   const store = createStore(rootReducer);
 
