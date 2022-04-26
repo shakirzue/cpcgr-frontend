@@ -1,8 +1,5 @@
-Object.defineProperty(global.self, 'crypto', {
-    value: {
-        // Needed for @azure/msal-browser
-        subtle: {
-            digest: jest.fn(),
-        },
-    },
+Object.defineProperty(window.self, 'crypto', {
+  value: {
+    getRandomValues: (arr) => crypto.randomBytes(arr.length)
+  }
 });
