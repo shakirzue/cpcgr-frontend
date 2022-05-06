@@ -37,7 +37,9 @@
     "eject": "react-scripts eject"
   },
   "jest": {
-    "testEnvironment": "node"
+    globals: {
+    crypto: require('crypto')
+  }
   },
   "eslintConfig": {
     "extends": [
