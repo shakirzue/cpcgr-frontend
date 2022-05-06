@@ -1,8 +1,5 @@
 {
   "name": "cpcg-admin-portal",
-  "jest": {
-    "verbose": true
-  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,7 +33,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test -- --config jest.config.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
